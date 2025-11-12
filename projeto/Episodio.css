@@ -66,6 +66,7 @@
     }
 
     #historia {
+        display: none;
         background: white;
         margin: 30px auto;
         padding: 20px;
