@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+     
+    h2{
+        font-family: "Playfair Display", serif;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .background-white{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #ff6ebd, #8ad5ff, #9effa9);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container{
+        max-width: 1400px;
+        padding: 0 5%;
+        margin: 0 auto;
+    }
+ 
+    section{
+        padding: 3.0rem 0;
+    }
+
+    header{
+        background: linear-gradient(90deg, #ff6ebd, #8ad5ff, #9effa9 );
+        padding: 15px 0;
+        box-shadow: 0 2px 10px rgb(255, 252, 252)
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        color: hsl(338, 86%, 40%);
+    }
+
+    .ul{
+        display: flex;
+        align-items: center;
+        font-family: "Playfair Display", serif;
+    }
+
+    .ul li{
+        margin: 0 35px;
+        font-size: 15px;
+    }
+
+    .ul li a{
+        color: hsl(338, 86%, 40%);
+    }
+
+    a  {
+        color:white;
+        text-decoration: none;
+    }
+
+    .imagem-principal {
+             width: 25%;
+             max-width: 200px;
+             display: block;
+             margin: 20px auto;
+    }
+
+    .conteudo {
+         display: flex;
+         align-items: center;
+         justify-content: flex-start; 
+         gap: 30px;
+         margin: 25px auto;
+         max-width: 1100px;
+         padding: 0 10px; 
+    }
+
+    img {
+        width: 40%;
+        max-width: 400px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(255, 24, 151, 0.938);
+    }
+
+    .texto {
+         width: 50%;
+         font-family: "Playfair Display", serif;
+         color: hsl(338, 86%, 40%);
+         line-height: 1.6;
+    }
+
+/* Responsividade para celular */
+
+@media (max-width: 768px) {
+ .conteudo {
+    flex-direction: column;
+    text-align: center;
+padding: 0 5px;
+
+ img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+ .texto {
+    width: 100%;
+  }
+ 
+ }
+}
+
+/* Página interativa */
+
