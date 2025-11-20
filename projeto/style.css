@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poetsen+One&display=swap');
      
-    h2{
-        font-family: "Playfair Display", serif;
-        margin: 10px;
-        padding: 10px;
+    .h2{
+        font-family: "Poetsen One", sans-serif;
+        margin: 5px;
+        padding: 5px;
     }
 
     .titulo{
@@ -15,7 +15,7 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textFlow 6s ease infinite;
-        font-family: "Playfair Display", serif;
+        font-family: "Poetsen One", sans-serif;
         margin: 10px;
         padding: 10px;
     }
@@ -49,8 +49,13 @@
     }
 
     header{
-        background: linear-gradient(90deg, #ff6ebd, #8ad5ff, #9effa9 );
+        width: 100%;
+        height: auto;
         padding: 15px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: linear-gradient(90deg, #ff6ebd, #8ad5ff, #9effa9 );
         box-shadow: 0 2px 10px rgb(255, 252, 252)
     }
 
@@ -77,18 +82,19 @@
 
     .ul{
         display: flex;
+        gap: 10px;
         align-items: center;
-        font-family: "Playfair Display", serif;
+        font-family: "Poetsen One", sans-serif;
     }
 
-    .ul li{
+    ul li{
         margin: 0 35px;
         font-size: 15px;
     }
 
-    .ul li a{
+    ul li a{
         display: inline-block;
-        font-size: 1rem;
+        font-size: 14px;
         background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
         background-size: 200% 200%;
         -webkit-background-clip: text;
@@ -131,7 +137,7 @@
 
     .texto {
          width: 50%;
-         font-family: "Playfair Display", serif;
+         font-family: "Caveat", cursive;
          color: black;
          line-height: 1.6;
     }
@@ -167,7 +173,7 @@ padding: 0 5px;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: textFlow 6s ease infinite;
-        font-family: "Playfair Display", serif;
+        font-family: "Poetsen One", sans-serif;
         margin: 10px;
         padding: 10px;
     }
@@ -191,7 +197,7 @@ padding: 0 5px;
     }
 
     .body{
-        font-family: Poppins, sans-serif;
+        font-family: "Caveat", cursive;
         background: #ffe6f2;
         text-align: center;
         padding: 20px;
@@ -208,6 +214,7 @@ padding: 0 5px;
         animation: textFlow 6s ease infinite;
         margin: 10px;
         padding: 10px;
+        font-family: "Poetsen One", sans-serif;
     }
 
     label {
@@ -216,7 +223,9 @@ padding: 0 5px;
         margin-left: 10px;
         font-weight: bold;
         color: black;
+        font-family: "Poetsen One", sans-serif;
     }
+
 
     select, input {
         padding: 10px;
@@ -256,74 +265,3 @@ padding: 0 5px;
         max-width: 500px;
     }
 
-    .container{
-        max-width: 1400px;
-        padding: 0 5%;
-        margin: 0 auto;
-    }
- 
-    section{
-        padding: 3.0rem 0;
-    }
-
-    header{
-        background: linear-gradient(90deg, #ff6ebd, #8ad5ff, #9effa9 );
-        padding: 15px 0;
-        box-shadow: 0 2px 10px rgb(255, 252, 252)
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 0;
-    }
-
-    .logo{
-        font-size: 30px;
-        font-weight: bold;
-        display: inline-block;
-        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
-        background-size: 200% 200%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textFlow 6s ease infinite;
-    }
-
-    .ul{
-        display: flex;
-        align-items: center;
-        font-family: "Playfair Display", serif;
-    }
-
-    .ul li{
-        margin: 0 35px;
-        font-size: 15px;
-    }
-
-    .ul li a{
-        display: inline-block;
-        font-size: 1rem;
-        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
-        background-size: 200% 200%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textFlow 6s ease infinite;
-    }
-
-    a  {
-        color:white;
-        text-decoration: none;
-    }
-
-    .conteudo {
-         display: flex;
-         align-items: center;
-         justify-content: flex-start; 
-         gap: 30px;
-         margin: 25px auto;
-         max-width: 1100px;
-         padding: 0 10px; 
-    }
