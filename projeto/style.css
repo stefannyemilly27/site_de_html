@@ -182,6 +182,90 @@ padding: 0 5px;
  }
 }
 
+    .imagemflor {
+        width: 700px;
+        text-align: left;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .flor {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
+        font-family: "Poetsen One", sans-serif;
+        margin: 10px;
+        padding: 20px;
+    }
+
+        .imagemlinda {
+        width: 700px;
+        text-align: left;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .linda {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
+        font-family: "Poetsen One", sans-serif;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .imagemdoce {
+        width: 700px;
+        text-align: left;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .doce {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
+        font-family: "Poetsen One", sans-serif;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .imagemstar {
+        width: 700px;
+        text-align: left;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .star {
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
+        font-family: "Poetsen One", sans-serif;
+        margin: 10px;
+        padding: 20px;
+    }
+
 
 /* Página interativa */
 
