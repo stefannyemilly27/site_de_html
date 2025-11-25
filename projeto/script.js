@@ -1,19 +1,28 @@
+const elTitulo = document.getElementById("titulo");
+if (!elTitulo) { console.error("#titulo não encontrado"); return; }
 document.getElementById("criar").addEventListener("click", criarEpisodio);
 
 function criarEpisodio() {
     const titulo = document.getElementById("titulo").value;
     const vilao = document.getElementById("vilao").value;
     const missao = document.getElementById("missao").value;
-}
 
 if (titulo.trim() === "") {
     alert("Por favor, escreva um título para o episódio!");
     return;
 }
+if (vilao.trim() === "") { 
+    alert("Digite o vilão!");
+    return; 
+}
+if (missao.trim() === "") { 
+    alert("Descreva a missão!");
+    return;
+}
 
 const introducoes = [
     "Era uma manhã tranquila em Townsville...",
-    "Tudo parecia calmo, até que derrepente...",
+    "Tudo parecia calmo, até que de repente...",
     "Enquanto o professor trabalhava em seu laboratório...",
     "As superpoderosas se preparavam para mais um dia de ação! Até que..."
 ];
@@ -38,3 +47,5 @@ const historia = `
  ` ;
 
   document.getElementById("historia").innerHTML = historia;
+
+}

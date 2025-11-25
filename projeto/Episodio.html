@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crie seu episódio - superpoderosas</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -15,9 +15,7 @@
       </div>
       <ul class="ul">
         <li><a href="index.html">Superpoderosas</a></li>
-        <li><a href="Florzinha.html">Florzinha</a></li>
-        <li><a href="Lindinha.html">Lindinha</a></li>
-        <li><a href="Docinho.html">Docinho</a></li>
+        <li><a href="Superpoderosas.html">Protagonistas</a></li>
         <li><a href="Estrelinha.html">Estrelinha</a></li>
         <li><a href="viloes.html">Vilões</a></li>
         <li><a href="Episodio.html">Surpresa</a></li>
@@ -25,27 +23,37 @@
     </nav>
   </div>
 </header>
-  <h1>Crie o seu episódio das Meninas Superpoderosas</h1>
-  <label for="vilão">Escolha o vilão: </label>
-  <select id="vilão">
-  <option value="Mojo Jojo">Mojo Jojo</option>
-  <option value="Ele">Ele</option>
-  <option value="Fuzzy Lumpkins">Fuzzy Lumpkins</option>
-  <option value="Gangue Gangrena">Gangue Gangrena</option>
-  </select>
 
-<label for="missão">Escolha a missão: </label>
-<select id="missão">
-  <option value="Salvar o parque de Townsville">Salvar o parque de Townsville</option>
-  <option value="Impedir o roubo do banco">Impedir o roubo do banco</option>
-  <option value="Proteger o laboratório do professor">Proteger o laboratório do professor</option>
-  <option value="Salvar o mundo de um feitiço maluco">Salvar o mundo de um feitiço maluco</option>
-</select>
+<h1>Crie o seu episódio das Meninas Superpoderosas</h1>
 
-<button id="criar">Criar episódio</button>
+<div class="episodio-container">
 
-<div id="historia"></div>
+    <div class="formulario">
+        <label for="titulo">Título do episódio:</label>
+        <input id="titulo" type="text" placeholder="Ex.: A grande aventura em Townsville">
 
+        <label for="vilao">Escolha o vilão: </label>
+        <select id="vilao">
+            <option value="Mojo Jojo">Mojo Jojo</option>
+            <option value="Ele">Ele</option>
+            <option value="Fuzzy Lumpkins">Fuzzy Lumpkins</option>
+            <option value="Gangue Gangrena">Gangue Gangrena</option>
+        </select>
+
+        <label for="missao">Escolha a missão: </label>
+        <select id="missao">
+            <option value="Salvar o parque de Townsville">Salvar o parque de Townsville</option>
+            <option value="Impedir o roubo do banco">Impedir o roubo do banco</option>
+            <option value="Proteger o laboratório do professor">Proteger o laboratório do professor</option>
+            <option value="Salvar o mundo de um feitiço maluco">Salvar o mundo de um feitiço maluco</option>
+        </select>
+
+        <button id="criar" type="button">Criar episódio</button>
+    </div>
+
+    <div id="historia"></div>
+
+</div>
 <script src="script.js"></script>
 </body>
 </html>
