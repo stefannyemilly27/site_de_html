@@ -203,6 +203,13 @@ padding: 0 5px;
         padding: 20px;
     }
 
+    .text-flor {
+        width: 50%;
+        font-family: "Caveat", cursive;
+        font-size: 21px;
+        color: rgb(53, 2, 53);
+    }
+
         .imagemlinda {
         width: 700px;
         text-align: left;
@@ -222,6 +229,13 @@ padding: 0 5px;
         font-family: "Poetsen One", sans-serif;
         margin: 10px;
         padding: 20px;
+    }
+
+    .text-linda {
+         width: 50%;
+         font-family: "Caveat", cursive;
+         font-size: 21px;
+         color: rgb(53, 2, 53);
     }
 
     .imagemdoce {
@@ -245,6 +259,13 @@ padding: 0 5px;
         padding: 20px;
     }
 
+    .text-doce {
+         width: 50%;
+         font-family: "Caveat", cursive;
+         font-size: 21px;
+         color: rgb(53, 2, 53);
+    }
+
     .imagemstar {
         width: 700px;
         text-align: left;
@@ -266,6 +287,12 @@ padding: 0 5px;
         padding: 20px;
     }
 
+    .text-star {
+         width: 50%;
+         font-family: "Caveat", cursive;
+         font-size: 21px;
+         color: rgb(53, 2, 53);
+    }
 
 /* Página interativa */
 
@@ -358,15 +385,6 @@ padding: 0 5px;
 
     button:hover {
         background: #89056f;
-    }
-
-
-    .episodio-container {
-        display: flex;
-        align-items: flex-start;
-        justify-content: left;
-        gap: 40px;
-        margin-top: 20px;
     }
 
 
