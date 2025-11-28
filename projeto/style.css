@@ -146,7 +146,7 @@
         max-width: 400px;
         height: auto;
         border-radius: 10px;
-        box-shadow: 0 4px 10px rgba(255, 24, 151, 0.938);
+        box-shadow: 0 6px 15px rgba(255, 24, 151, 0.938);
     }
 
 
@@ -182,14 +182,21 @@ padding: 0 5px;
  }
 }
 
-    .imagemflor {
+    .protagonistas-mae {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .imagens-protagonistas {
+        display: flex;
+        gap: 125%;
         width: 700px;
-        text-align: left;
-        margin-left: 20px;
+        margin: 20px;
         padding: 20px;
     }
 
-    .flor {
+    .meninas {
         display: flex;
         align-items: center;
         background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
@@ -200,21 +207,18 @@ padding: 0 5px;
         animation: textFlow 6s ease infinite;
         font-family: "Poetsen One", sans-serif;
         margin: 10px;
-        padding: 20px;
+        padding: 10px;
+        font-size: 18px;
     }
 
-    .text-flor {
-        width: 50%;
+    .text-protagonistas {
+        display: flex;
+        gap: 20px;
         font-family: "Caveat", cursive;
-        font-size: 21px;
         color: rgb(53, 2, 53);
-    }
-
-        .imagemlinda {
-        width: 700px;
-        text-align: left;
-        margin-left: 20px;
-        padding: 20px;
+        font-size: 25px;
+        margin: 10px;
+        padding: 10px;
     }
 
     .linda {
@@ -231,20 +235,6 @@ padding: 0 5px;
         padding: 20px;
     }
 
-    .text-linda {
-         width: 50%;
-         font-family: "Caveat", cursive;
-         font-size: 21px;
-         color: rgb(53, 2, 53);
-    }
-
-    .imagemdoce {
-        width: 700px;
-        text-align: left;
-        margin-left: 20px;
-        padding: 20px;
-    }
-
     .doce {
         display: flex;
         align-items: center;
@@ -257,13 +247,6 @@ padding: 0 5px;
         font-family: "Poetsen One", sans-serif;
         margin: 10px;
         padding: 20px;
-    }
-
-    .text-doce {
-         width: 50%;
-         font-family: "Caveat", cursive;
-         font-size: 21px;
-         color: rgb(53, 2, 53);
     }
 
     .imagemstar {
