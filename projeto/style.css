@@ -189,6 +189,7 @@ padding: 0 5px;
 
     .protagonistas-mae {
         display: flex;
+        align-items: center;
         flex-direction: column;
         gap: 20px;
     }
@@ -224,6 +225,7 @@ padding: 0 5px;
         font-size: 25px;
         margin: 10px;
         padding: 10px;
+        line-height: 1.6;
     }
 
     
@@ -294,18 +296,30 @@ padding: 0 5px;
         box-shadow:  0 10px 20px rgba(3, 86, 18, 0.938);
     }
 
+    .background-star-mae {
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+        flex-direction: column;
+    }
+
     .imgstar {
         width: 700px;
         text-align: left;
         margin-left: 20px;
         padding: 20px;
         margin-top: 20px;
+
     }
 
 
 
     .text-star {
-        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
         background-size: 200% 200%;
         -webkit-background-clip: text;
         background-clip: text;
@@ -313,7 +327,7 @@ padding: 0 5px;
         animation: textFlow 6s ease infinite;
          width: 50%;
          font-family: "Caveat", cursive;
-         font-size: 21px;
+         font-size: 25px;
     }
 
 /* Página interativa */
