@@ -190,7 +190,7 @@ padding: 0 5px;
 
     .imagens-protagonistas {
         display: flex;
-        gap: 125%;
+        gap: 45%;
         width: 700px;
         margin: 20px;
         padding: 20px;
@@ -249,26 +249,15 @@ padding: 0 5px;
         padding: 20px;
     }
 
-    .imagemstar {
+    .imgstar {
         width: 700px;
         text-align: left;
         margin-left: 20px;
         padding: 20px;
+        margin-top: 20px;
     }
 
-    .star {
-        display: flex;
-        align-items: center;
-        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
-        background-size: 200% 200%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: textFlow 6s ease infinite;
-        font-family: "Poetsen One", sans-serif;
-        margin: 10px;
-        padding: 20px;
-    }
+
 
     .text-star {
          width: 50%;
