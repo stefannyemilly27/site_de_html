@@ -146,15 +146,20 @@
         max-width: 400px;
         height: auto;
         border-radius: 10px;
-        box-shadow: 0 6px 15px rgba(255, 24, 151, 0.938);
+        box-shadow: 0 10px 20px rgba(255, 24, 151, 0.938);
     }
 
 
     .texto {
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);;
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
          width: 50%;
          font-family: "Caveat", cursive;
-         font-size: 21px;
-         color: rgb(53, 2, 53);
+         font-size: 23.5px;
          line-height: 1.6;
     }
 
@@ -213,12 +218,26 @@ padding: 0 5px;
 
     .text-protagonistas {
         display: flex;
+        text-align: center;
         gap: 20px;
         font-family: "Caveat", cursive;
-        color: rgb(53, 2, 53);
         font-size: 25px;
         margin: 10px;
         padding: 10px;
+    }
+
+    
+    .background-flor {
+        display: block;
+        block-size: 130px;
+        margin-block: 20px;
+        padding-block: 20px;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #fdb8cf, #f66c9a, #ff1865) ;
+        font-family: "Caveat", cursive;
+        font-size: 25px;
+        color: rgb(97, 5, 42);
+        box-shadow:  0 10px 20px rgba(236, 4, 132, 0.938);
     }
 
     .linda {
@@ -235,6 +254,19 @@ padding: 0 5px;
         padding: 20px;
     }
 
+    .background-linda {
+        display: block;
+        block-size: 130px;
+        margin-block: 20px;
+        padding-block: 20px;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #aacbfe, #80a1fc, #4d92f9) ;
+        font-family: "Caveat", cursive;
+        font-size: 25px;
+        color: rgb(18, 6, 75);
+        box-shadow:  0 10px 20px rgba(24, 21, 238, 0.938);
+    }
+
     .doce {
         display: flex;
         align-items: center;
@@ -249,6 +281,19 @@ padding: 0 5px;
         padding: 20px;
     }
 
+    .background-doce {
+        display: block;
+        block-size: 130px;
+        margin-block: 20px;
+        padding-block: 20px;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #a4f9a4, #55f675, #019319) ;
+        font-family: "Caveat", cursive;
+        font-size: 25px;
+        color: rgb(1, 47, 4);
+        box-shadow:  0 10px 20px rgba(3, 86, 18, 0.938);
+    }
+
     .imgstar {
         width: 700px;
         text-align: left;
@@ -260,10 +305,15 @@ padding: 0 5px;
 
 
     .text-star {
+        background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);;
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textFlow 6s ease infinite;
          width: 50%;
          font-family: "Caveat", cursive;
          font-size: 21px;
-         color: rgb(53, 2, 53);
     }
 
 /* Página interativa */
@@ -384,9 +434,10 @@ padding: 0 5px;
         padding: 15px;
         border-radius: 12px;
         box-shadow: 0 0 10px rgb(102, 24, 102);
-        font-size: 18px;
+        font-size: 23px;
         line-height: 1.6;
         width: 350px;
+        font-family: "Caveat", cursive;;
     }
 
     .imagemfinal {
