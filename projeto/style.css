@@ -187,6 +187,52 @@ padding: 0 5px;
  }
 }
 
+
+/* GALERIA SUPERPODEROSAS */
+
+.galeria {
+    width: 250px;
+    padding: 10px;
+    background-color: #f9b4d3;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(255, 0, 119);
+    transition: 0.3s;
+}
+
+.galeria:hover {
+    background-color: #ff62cb;
+    transform: scale(1.05);
+}
+
+.galeria a {
+    text-decoration: none;
+    color: #9a015a;
+}
+
+
+    .container-galeria-mae {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img-galeria img {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 8px;
+    }
+
+    .img-galeria {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
     .protagonistas-mae {
         display: flex;
         align-items: center;
@@ -317,6 +363,7 @@ padding: 0 5px;
     .topicos {
         display: flex;
         align-items: center;
+        justify-content: center;
         background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
         background-size: 200% 200%;
         -webkit-background-clip: text;
@@ -332,7 +379,7 @@ padding: 0 5px;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        text-align: left;
+        text-align: center;
         align-self: flex-start;
         justify-content: center;
         background: linear-gradient(90deg, #b83280 0%, #1e3a8a 50%, #166534 100%);
@@ -358,10 +405,9 @@ padding: 0 5px;
     .img-viloes {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 225px;
         width: 600px;
         border-radius: 8px;
-        margin-top: 20px;
     }
 
     .text-viloes {
@@ -374,6 +420,22 @@ padding: 0 5px;
         padding: 10px;
         line-height: 1.6;
     }
+
+    .background-viloes {
+        display: block;
+        block-size: 220px;
+        margin-block: 20px;
+        padding-block: 20px;
+        border-radius: 15px;
+        background: linear-gradient(135deg,  #ff6ebd, #8ad5ff, #9effa9) ;
+        font-family: "Caveat", cursive;
+        font-size: 25px;
+        color: #530143;
+        box-shadow:  0 10px 20px rgba(236, 4, 132, 0.938);
+    }
+
+
+
 
 /* Página interativa */
 
@@ -439,6 +501,7 @@ padding: 0 5px;
         -webkit-text-fill-color: transparent;
         animation: textFlow 6s ease infinite;
         font-family: "Poetsen One", sans-serif;
+        color: #530143;
     }
 
     select, input {
@@ -449,6 +512,8 @@ padding: 0 5px;
         width: 80%;
         max-width: 400px;
         margin-left: 20px;
+        font-family: "Poetsen One", sans-serif;
+        color: #530143;
     }  
 
     button {
@@ -461,6 +526,8 @@ padding: 0 5px;
         border-radius: 10px;
         cursor: pointer;
         transition: background 0.3s;
+        font-family: "Poetsen One", sans-serif;
+        color: #530143;
     }
 
 
